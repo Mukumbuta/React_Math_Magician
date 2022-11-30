@@ -1,58 +1,57 @@
 .calc-frame {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
 }
-  
+
 .main-calc {
-    border: 2px solid #808080;
+  border: 2px solid #808080;
 }
-    
+
 .display {
-    width: 99%;
-    height: 50px;
-    outline: none;
-    border: none;
-    background: hsl(202, 11%, 29%);
+  width: 99%;
+  height: 50px;
+  outline: none;
+  border: none;
+  background: hsl(202, 11%, 29%);
 }
-  
+
 ::placeholder {
-    color: #fff;
-    font-size: 25px;
-    float: right;
-    margin-top: 10px;
+  color: #fff;
+  font-size: 25px;
+  float: right;
+  margin-top: 10px;
 }
-  
+
 .btn-row {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
-  
+
 .zero-btn {
-    width: 200px;
+  width: 200px;
 }
-  
+
 .zero {
-    width: 200px;
-    height: 50px;
-    border: 1px solid #bdbaba;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #bdbaba;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
 }
-  
+
 .orange-color {
-    background: #ff4500;
+  background: #ff4500;
 }
-  
+
 .calc-btn,
 .orange-color {
-    width: 100px;
-    height: 50px;
-    border: 1px solid #bdbaba;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #bdbaba;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
 }
-  
