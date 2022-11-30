@@ -1,80 +1,178 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# React Math Magicians
-> Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations, and read a random math-related quote.
+<div align="center">
 
-## Built With
-- Major languages: CSS and JavaScript
-- Frameworks: ReactJS
-- Technologies used: Linters, Git, npm, Webpack
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
 
 
-## Getting Started
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+
+# 📖 [Math_Magicians] <a name="about-project"></a>
+
+**[Math_Magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations, and read a random math-related quote.
+
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Languages</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/">JavaScript</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://developer.mozilla.org/">CSS</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://developer.mozilla.org/">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Framework</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Other Technologies</summary>
+  <ul>
+    <li><a href="https://npmjs.com/">NPM</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://git-scm.com/">Git</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="http://localhost:3000/">Local Host</a></li>
+  </ul>
+</details>
+
+<details>
+
+### Key Features <a name="key-features"></a>
+
+- **[performs_basic_arithmetic_operations]**
+- **[Simple_and_easy_to_use_UI]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-You should be having [Node.js](https://nodejs.org/en/) installed on your computer
-
+In order to run this project you need:
+- Node 
+- npm
 
 ### Setup
 
-To get a local copy up and running follow these simple example steps.
+Clone this repository to your desired folder:
 
-1. Navigate to a folder where you want the cloned file to appear
+```sh
+  cd your-folder
+  git@github.com:Mukumbuta/React-Math-Magicians.git
+```
 
-2. Clone this repo in your terminal or git bash using the command
+### Install
 
-   `git@github.com:Mukumbuta/Math-Magicians-React-App.git`
+Install this project with:
 
-3. run `npm install ` to install all the necessary dependencies including the linters and webpack
+```sh
+  cd React-Math-Magicians
+  npm install
+```
 
-4. Navigate to the folder called Leaderboard and open this project using your editor
+### Usage
 
-5. You run `npm run start` to start the local server on port 3000
+To run the project, execute the following command:
 
-6. You also run `npm run build` to build your project
+```sh
+  npm run build
+  npm run start
+```
 
-
-### Run tests (For the linters added)
-
-Run the following commands on your terminal:
-
-- CSS/SCSS, run `npx stylelint "**/*.{css,scss}"`
-- Javascript `npx eslint .`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Live demo
-- Link: 
-
-## Deployment
-- Deployed using GitHub Pages
-- Link: N/A
-
-## Author
+## 👥 Authors <a name="authors"></a>
 
 👤 **Emmanuel Simasiku**
-- GitHub: [@githubhandle](https://github.com/Mukumbuta)
-- Twitter: [@twitterhandle](https://twitter.com/Mukumbuta8)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/mukumbuta)
 
-## 🤝 Contributing
+- GitHub: [@Mukumbuta](https://github.com/Mukumbuta)
+- Twitter: [@Mukumbuta8](https://twitter.com/Mukumbuta8)
+- LinkedIn: [Mukumbuta](https://linkedin.com/in/mukumbuta)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[home_page]**
+- [ ] **[random_math_related_quotes.]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
 Contributions, issues, and feature requests are welcome!
+
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
 
-## Show your support
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
-- Hat tip to anyone whose code snippet was used for...
-- Inspiration
-- etc
+If you like this project and you find it helpful, please give this project a star.
 
-## 📝 License
-This project is [MIT](./MIT.md) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank everyone who inspired my codebase.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
