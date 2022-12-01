@@ -30,13 +30,16 @@ const getStyleName = (btn) => {
 // eslint-disable-next-line react/prefer-stateless-function
 export default class Button extends Component {
   render() {
-    const { label } = this.props;
+    const { label, handleClick } = this.props;
     return (
       <div>
-        <button type="button" className={`${getStyleName(label)}`}>{label}</button>
+        <button onClick={handleClick} type="button" className={`${getStyleName(label)}`}>{label}</button>
       </div>
     );
   }
 }
 
-Button.propTypes = { label: PropTypes.string.isRequired };
+Button.propTypes = {
+  label: PropTypes.string.isRequired,
+  handleClick: PropTypes.func.isRequired,
+};
