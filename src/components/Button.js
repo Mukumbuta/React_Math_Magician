@@ -18,7 +18,7 @@ const getStyleName = (btn) => {
     '+/-': 'calc-btn',
     '%': 'calc-btn',
     '+': 'orange-color',
-    '×': 'orange-color',
+    x: 'orange-color',
     '-': 'orange-color',
     '÷': 'orange-color',
     '=': 'orange-color',
@@ -28,18 +28,20 @@ const getStyleName = (btn) => {
 };
 
 // eslint-disable-next-line react/prefer-stateless-function
-export default class Button extends Component {
+class Button extends Component {
   render() {
-    const { label, handleClick } = this.props;
+    const { label, eventsHandler } = this.props;
+
+    // const btnClickHandler = () => eventsHandler(label);
     return (
       <div>
-        <button onClick={handleClick} type="button" className={`${getStyleName(label)}`}>{label}</button>
+        <button type="button" onClick={eventsHandler} className={`${getStyleName(label)}`}>{label}</button>
       </div>
     );
   }
 }
 
-Button.propTypes = {
-  label: PropTypes.string.isRequired,
-  handleClick: PropTypes.func.isRequired,
-};
+Button.propTypes = { label: PropTypes.string.isRequired };
+Button.propTypes = { eventsHandler: PropTypes.func.isRequired };
+
+export default Button;

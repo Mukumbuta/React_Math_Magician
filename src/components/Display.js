@@ -6,8 +6,8 @@ class Display extends Component {
   render() {
     const { value } = this.props;
     return (
-      <div>
-        <input type="text" className="display" placeholder={value} />
+      <div className="dislay">
+        <input type="text" className="dislay-input" placeholder={value} />
       </div>
     );
   }
