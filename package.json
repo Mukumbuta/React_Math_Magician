@@ -1,5 +1,5 @@
 {
-  "name": "math-magicians-react-app",
+  "name": "react-math-magician",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,15 +22,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mukumbuta/Math-Magicians-React-App.git"
+    "url": "git+https://github.com/Mukumbuta/React_Math_Magician.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mukumbuta/Math-Magicians-React-App/issues"
+    "url": "https://github.com/Mukumbuta/React_Math_Magician/issues"
   },
-  "homepage": "https://github.com/Mukumbuta/Math-Magicians-React-App/public/index.html",
+  "homepage": "https://github.com/Mukumbuta/React_Math_Magician/public/index.html",
   "eslintConfig": {
     "extends": [
       "react-app",
